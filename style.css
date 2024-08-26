@@ -1,0 +1,129 @@
+*{
+    background: #f7f8f7;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size:  20px;
+    line-height: 150%;
+}
+
+.LogoAlura {
+    margin-left: 5px;
+    padding-top: 20px;
+    width: 10%;
+    
+}
+
+main {
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 90px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+    width: 400px; /* Aumenta a largura da caixa de texto */
+    height: 100px; /* Aumenta a altura da caixa de texto */
+}
+
+
+::placeholder {
+    color: #070707;
+    height: 100px;   
+    }
+
+.text-area:focus {
+    border: none;
+}
+       
+    .mensagem {
+        background: #F3F5FC;
+        background-image: url(/imagens/boneco.png);
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        background-position: center; /* Centraliza a imagem */
+        border: solid; /* Especifique a largura e a cor para mais controle, ex: '1px solid #000' */
+        border-radius: 30px; /* Corrige a sintaxe do border-radius */
+        color: #0A3871;
+        margin-left: 98px;
+        margin-top: 10px;
+        padding-left: 80px;
+        padding-top: 5px;
+        padding-right: 90px;
+        padding-bottom: 8%; /* Substitui padding: 8% para ajustar apenas a parte inferior */
+        position: fixed;
+        width: 130px; /* Ajuste a largura como necessário */
+        height: 305px; /* Ajuste a altura como necessário */
+    }
+    
+.mensagem:focus{
+    outline: none;
+    margin-top: 30px;
+  
+}
+.botoes {
+    display: flex;
+    margin-top: 2px;
+}
+
+.btn-descriptar {
+    background: #1d1e1f60; /* Cor de fundo azul */
+    border: 1px solid #0a2945; /* Borda azul para combinar com o fundo */
+    border-radius: 30px;
+    color: #FFFFFF; /* Cor do texto branco */
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
+    font-weight: bold; /* Opcional: para deixar o texto em negrito */
+    transition: background 0.3s, border 0.3s; /* Adiciona uma transição suave para a cor de fundo e borda */
+}
+
+.btn-descriptar {
+    background: #021f3c; /* Cor de fundo azul mais escuro ao passar o mouse */
+    border: 1px solid #0056b3; /* Borda azul mais escura ao passar o mouse */
+
+}
+.btn-encriptar {
+    background: #0a2945; /* Cor de fundo azul */
+    border: 1px solid #0a2945; /* Borda azul para combinar com o fundo */
+    border-radius: 30px;
+    color: #FFFFFF; /* Cor do texto branco */
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
+    font-weight: bold; /* Opcional: para deixar o texto em negrito */
+    transition: background 0.3s, border 0.3s; /* Adiciona uma transição suave para a cor de fundo e borda */
+}
+
+.btn-encriptar:hover {
+    background: #01070d; /* Cor de fundo azul mais escuro ao passar o mouse */
+    border: 1px solid #0056b3; /* Borda azul mais escura ao passar o mouse */
+}
+
+.informacao {
+    color: #0A3871;
+    font-size: 18px;
+    margin-top: 200px;/* Aumenta a margem superior para mover o texto para baixo */
+    border-radius: 24px;
+
+}
+
+footer {
+    background-color: #f7f7f7; /* Cor de fundo do rodapé */
+    padding: 10px; /* Espaçamento interno */
+    text-align: right; /* Alinha o texto ao centro */
+    position: fixed; /* Faz o rodapé fixo na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 97%; /* Faz o rodapé ocupar a largura total da página */
+}
+
+.direitos {
+    color: #0b0b0b; /* Cor do texto */
+    font-size: 8px; /* Tamanho da fonte */
+    
+
+    
+}
